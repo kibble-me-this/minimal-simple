@@ -14,10 +14,8 @@ export default function ThemeSettings({ children }) {
   return (
     <ThemeColorPresets>
       <ThemeContrast>
-        <ThemeRtlLayout>
           {children}
           <SettingsDrawer />
-        </ThemeRtlLayout>
       </ThemeContrast>
     </ThemeColorPresets>
   );
